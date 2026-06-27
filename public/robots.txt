@@ -2,4 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aromaxx.netlify.app/sitemap.xml
+Sitemap: https://dummy-h1qwtow2d-aashish5.vercel.app/sitemap/.xml
+ 
