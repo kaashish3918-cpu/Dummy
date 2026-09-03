@@ -245,6 +245,86 @@ export default function Home({ onOpenScentFinder, onViewProduct }: HomeProps) {
           </button>
         </div>
       </section>
+            </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="text-center mb-10">
+          <span className="text-xs font-bold uppercase tracking-[0.3em] text-[#d4af37]">
+            Frequently Asked Questions
+          </span>
+
+          <h2 className="font-serif-lux text-3xl sm:text-4xl text-white mt-3">
+            Everything You Need to Know
+          </h2>
+        </div>
+
+        <div className="space-y-4">
+
+          <details className="group bg-[#161616] border border-white/10 rounded-lg p-5">
+            <summary className="cursor-pointer text-white font-semibold">
+              What types of perfumes are available at Aromaxx?
+            </summary>
+
+            <p className="text-white/60 text-sm leading-relaxed mt-4">
+              Aromaxx offers a variety of premium fragrances including fresh,
+              floral, woody, spicy and long-lasting perfumes for different
+              preferences and occasions.
+            </p>
+          </details>
+
+          <details className="group bg-[#161616] border border-white/10 rounded-lg p-5">
+            <summary className="cursor-pointer text-white font-semibold">
+              How long does an Aromaxx perfume last?
+            </summary>
+
+            <p className="text-white/60 text-sm leading-relaxed mt-4">
+              Perfume longevity depends on the fragrance composition, skin type
+              and environment. Different fragrances may have different
+              lasting durations.
+            </p>
+          </details>
+
+          <details className="group bg-[#161616] border border-white/10 rounded-lg p-5">
+            <summary className="cursor-pointer text-white font-semibold">
+              How can I choose the right perfume?
+            </summary>
+
+            <p className="text-white/60 text-sm leading-relaxed mt-4">
+              You can choose a perfume based on your preferred fragrance notes,
+              personality, occasion and whether you prefer fresh, floral,
+              woody or warm scents.
+            </p>
+          </details>
+
+          <details className="group bg-[#161616] border border-white/10 rounded-lg p-5">
+            <summary className="cursor-pointer text-white font-semibold">
+              How should I store my perfume?
+            </summary>
+
+            <p className="text-white/60 text-sm leading-relaxed mt-4">
+              Store your perfume in a cool and dry place away from direct
+              sunlight and excessive heat to help preserve its fragrance.
+            </p>
+          </details>
+
+          <details className="group bg-[#161616] border border-white/10 rounded-lg p-5">
+            <summary className="cursor-pointer text-white font-semibold">
+              Can I wear Aromaxx perfume every day?
+            </summary>
+
+            <p className="text-white/60 text-sm leading-relaxed mt-4">
+              Yes. You can select a fragrance according to your personal
+              preference and the occasion, including daily use.
+            </p>
+          </details>
+
+        </div>
+      </section>
+
+    </div>
+  );
+}
     </div>
   );
 }
