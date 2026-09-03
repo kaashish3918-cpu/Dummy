@@ -245,7 +245,7 @@ export default function Home({ onOpenScentFinder, onViewProduct }: HomeProps) {
           </button>
         </div>
       </section>
-            </section>
+          
     </div>
   );
 }
