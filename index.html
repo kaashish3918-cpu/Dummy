@@ -3,7 +3,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"s
+  />
 
   <!-- Google Tag Manager -->
   <script>
@@ -13,6 +17,7 @@
         'gtm.start': new Date().getTime(),
         event:'gtm.js'
       });
+
       var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),
           dl=l!='dataLayer'?'&l='+l:'';
@@ -24,15 +29,16 @@
   </script>
   <!-- End Google Tag Manager -->
 
+
   <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s){
       if(f.fbq)return;
 
       n=f.fbq=function(){
-        n.callMethod ?
-        n.callMethod.apply(n,arguments) :
-        n.queue.push(arguments)
+        n.callMethod
+          ? n.callMethod.apply(n,arguments)
+          : n.queue.push(arguments)
       };
 
       if(!f._fbq)f._fbq=n;
@@ -49,22 +55,83 @@
       s=b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s);
 
-    }(window,document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
+    }(
+      window,
+      document,
+      'script',
+      'https://connect.facebook.net/en_US/fbevents.js'
+    );
 
     fbq('init','1661435198275236');
     fbq('track','PageView');
   </script>
   <!-- End Meta Pixel Code -->
 
+
+  <!-- Google Search Console Verification -->
   <meta
     name="google-site-verification"
     content="AlVGsH9C9oqFBsG7RtpBewVQQuNlAtzNf2VCPDiBDic"
   />
 
+
+  <!-- Website Title -->
   <title>Aromaxx | Luxury Formulations & Perfumes</title>
 
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What types of perfumes are available at Aromaxx?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Aromaxx offers a variety of premium fragrances including fresh, floral, woody, spicy and long-lasting perfumes for different preferences and occasions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does an Aromaxx perfume last?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perfume longevity depends on the fragrance composition, skin type and environment. Different fragrances may have different lasting durations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I choose the right perfume?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can choose a perfume based on your preferred fragrance notes, personality, occasion and whether you prefer fresh, floral, woody or warm scents."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should I store my perfume?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Store your perfume in a cool and dry place away from direct sunlight and excessive heat to help preserve its fragrance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I wear Aromaxx perfume every day?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. You can select a fragrance according to your personal preference and the occasion, including daily use."
+        }
+      }
+    ]
+  }
+  </script>
+  <!-- End FAQ Schema -->
+
 </head>
+
 
 <body>
 
@@ -79,6 +146,7 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+
   <!-- Facebook Pixel (noscript) -->
   <noscript>
     <img
@@ -91,9 +159,16 @@
   </noscript>
   <!-- End Facebook Pixel (noscript) -->
 
+
+  <!-- React Application -->
   <div id="root"></div>
 
-  <script type="module" src="/src/main.tsx"></script>
+
+  <!-- Main TypeScript File -->
+  <script
+    type="module"
+    src="/src/main.tsx">
+  </script>
 
 </body>
 </html>
