@@ -279,7 +279,7 @@ export default function Home({ onOpenScentFinder, onViewProduct }: HomeProps) {
             </summary>
 
             <p className="text-white/60 text-sm leading-relaxed mt-4">
-              Perfume longevity depends on the fragrance composition, skin type
+           Perfume longevity depends on the fragrance composition, skin type
               and environment. Different fragrances may have different
               lasting durations.
             </p>
